@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Panel">
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/title_background</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="PanelButton">
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:background">@drawable/selector_button</item>
+    </style>
+
+    <style name="PanelButton.Height">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="BarToggleButton">
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/selector_toggle_button_v1</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+        <item name="android:padding">@dimen/title_height_quarter</item>
+    </style>
+    
+    <style name="SeparatorHorizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/title_separator</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_background">#aa101010</color>
+    <color name="title_separator">#40ffffff</color>
+	<color name="btn_disabled">#80aaaaaa</color>
+</resources>
