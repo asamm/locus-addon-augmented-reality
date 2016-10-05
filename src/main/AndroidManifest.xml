@@ -15,23 +15,29 @@
         android:xlargeScreens="true" />
 
     <application
-        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:allowBackup="true">
+
         <activity
             android:name="com.asamm.locus.addon.ar.MainActivity"
             android:screenOrientation="landscape" >
+
             <intent-filter>
-                <action android:name="locus.api.android.addon.ar.ACTION_VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
+                <action
+                    android:name="locus.api.android.addon.ar.ACTION_VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <receiver
             android:name="com.asamm.locus.addon.ar.DataReceiver"
             android:enabled="true" >
+
             <intent-filter>
-                <action android:name="locus.api.android.addon.ar.NEW_DATA" />
+                <action
+                    android:name="locus.api.android.addon.ar.NEW_DATA" />
             </intent-filter>
         </receiver>
     </application>
