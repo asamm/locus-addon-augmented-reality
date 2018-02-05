@@ -1,4 +1,4 @@
-# Locus Map - add-on Augmented reality
+# Augmented Reality for Locus Map ![logo](app/src/main/res/drawable-mdpi/ic_launcher.png "Contacts for Locus Map logo")
 
 Add-on for [Locus Map](http://www.locusmap.eu) (Android) application, focused on visualization of selected points in the phone camera view.
 
